@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    tools:context=".About">
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@drawable/back"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/ivHead4"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/head_about"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:background="@drawable/back_konten"
+        android:layout_below="@id/ivHead4"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/ivProfil"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profil"
+        android:layout_below="@id/ivHead4"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:layout_below="@id/ivProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/About"/>
+
+</RelativeLayout>

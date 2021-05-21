@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnSatu1"
+                style="@style/btnLevelDalam"
+                android:background="@drawable/img_gembok" />
+
+            <ImageButton
+                android:id="@+id/btnSatu2"
+                style="@style/btnLevelDalam"
+                android:background="@drawable/img_gembok" />
+
+            <ImageButton
+                android:id="@+id/btnSatu3"
+                style="@style/btnLevelDalam"
+                android:background="@drawable/img_gembok" />
+
+
+            <ImageButton
+                android:id="@+id/btnSatu4"
+                style="@style/btnLevelDalam"
+                android:background="@drawable/img_gembok" />
+
+            <ImageButton
+                android:id="@+id/btnSatu5"
+                style="@style/btnLevelDalam"
+                android:background="@drawable/img_gembok" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

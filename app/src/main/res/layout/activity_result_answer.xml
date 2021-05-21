@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultAnswer">
+
+    <RelativeLayout
+        android:layout_width="450dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="300dp"
+            android:src="@drawable/back_hijau"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:text="@string/benar"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_below="@id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:text="@string/score_level"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff3d00"
+            android:textStyle="bold"
+            android:textSize="55sp" />
+
+        <Button
+            android:id="@+id/btnLanjut"
+            style="@style/buttonCustom"
+            android:layout_below="@id/tvScore"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/lanjut"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BelajarMenu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@drawable/back" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/head_bljr" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv"
+        android:layout_alignTop="@id/tv"
+        android:layout_marginTop="40dp"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/ibHijaiyah"
+        style="@style/buttonBelajar"
+        android:layout_alignEnd="@+id/tv2"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/img_hija" />
+
+    <ImageButton
+        android:id="@+id/ibNun"
+        style="@style/buttonBelajar"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/img_nunskn" />
+
+    <ImageButton
+        android:id="@+id/ibMim"
+        style="@style/buttonBelajar"
+        android:layout_alignStart="@id/tv2"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/img_mimskn" />
+
+    <ImageButton
+        android:id="@+id/ibUmmi"
+        style="@style/buttonBelajar"
+        android:layout_alignTop="@+id/tv2"
+        android:layout_alignEnd="@+id/tv2"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/img_ummi" />
+
+
+    <ImageButton
+        android:id="@+id/ibQalqalah"
+        style="@style/buttonBelajar"
+        android:layout_alignStart="@id/tv2"
+        android:layout_alignTop="@+id/tv2"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/img_qalqalah" />
+</RelativeLayout>

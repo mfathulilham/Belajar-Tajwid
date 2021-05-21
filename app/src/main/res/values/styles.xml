@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="temaku" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--action barnya-->
+        <item name="android:windowActionBar">false</item>
+        <!--semacam vinyet-->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="background">
+        <item name="android:background">@drawable/img_background</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="head">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">150dp</item>
+    </style>
+    <style name="buttonLevel">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="btnLevelDalam">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="buttonBelajar">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
+    <style name="buttonCustom">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/back_button</item>
+    </style>
+</resources>

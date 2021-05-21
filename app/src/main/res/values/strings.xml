@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BelajarTajdwid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">This Is Home Fragment</string>
+    <string name="About">
+        Nama : Ansarullah Adam\nTempat Lahir : Pangkajene\nTanggal Lahir : 3 Juni 1997
+    </string>
+    <string name="Help"><body style="text-align:justify;color:gray;background-color:black;">Belajar\nPada menu belajar, anda dapat memilih materi yang akan anda pelajari.
+            Materi berupa penjelasan dan contoh bacaan ilmu tajwid. Tekan tombol huruf hijaiyah untuk melihat penjelasan dan mendengarkan audionya.
+            Semua ayat yang ada pada menu belajar dapat di dengarkan lafaznya dengan mengklik ayat contoh bacanya.\nTes\nTes
+            berupa soal yang berkaitan dengan materi pada menu belajar. Jawablah soal dengan cara memilih jawaban yang paling tepat.
+            Pertanyaan dan level berikutnya akan terbuka dengan sendirinya ketika telah menjawab pertanyaan dengan benar.
+        </body>
+    </string>
+    <string name="audio">Audio :</string>
+    <string name="todo">TODO</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="benar">Selamat Jawaban Kamu Benar</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="score_level">Score Pada Level Ini</string>
+</resources>

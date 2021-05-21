@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    tools:context=".LevelMenu">
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@drawable/back"/>
+
+    <ImageView
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/head_test"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/ibLevel1"
+        style="@style/buttonLevel"
+        android:layout_alignBottom="@id/tv"
+        android:background="@drawable/img_lvl1"
+         />
+
+    <ImageButton
+        android:id="@+id/ibLevel2"
+        style="@style/buttonLevel"
+        android:layout_alignTop="@id/tv"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/img_lvl2" />
+    <ImageButton
+        android:id="@+id/ibLevel3"
+        style="@style/buttonLevel"
+        android:layout_alignTop="@id/ibLevel2"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/img_lvl3"/>
+
+</RelativeLayout>

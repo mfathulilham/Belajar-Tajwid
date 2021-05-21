@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    tools:context=".QuisActivity">
+
+    <RelativeLayout
+        android:layout_width="450dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/back_konten"
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""/>
+        <Button
+            android:id="@+id/btnChoice1"
+            style="@style/buttonCustom"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_alignTop="@id/tv3"
+            android:layout_alignEnd="@id/tv3"
+            android:layout_marginEnd="10dp"/>
+        <Button
+            android:id="@+id/btnChoice2"
+            style="@style/buttonCustom"
+            android:layout_toEndOf="@id/btnChoice1"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_alignTop="@id/tv3"
+            android:layout_marginEnd="10dp"/>
+        <Button
+            android:id="@+id/btnChoice3"
+            style="@style/buttonCustom"
+            android:layout_below="@id/btnChoice1"
+            android:text=""
+            android:layout_alignEnd="@id/tv3"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btnChoice4"
+            style="@style/buttonCustom"
+            android:layout_toEndOf="@id/btnChoice1"
+            android:text=""
+            android:layout_below="@id/btnChoice2"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
