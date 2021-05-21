@@ -1,3 +1,3 @@
 "# Belajar-Tajwid" 
-# Aplikasi pembelajaran untuk mempelajari Tajwid
+# Aplikasi Edukasi untuk mempelajari Tajwid
 
